@@ -7,7 +7,7 @@ if getattr(sys, 'frozen', False):
 pygame.mixer.pre_init(44100, -16, 2, 2048)
 pygame.init()
 fpsClock = pygame.time.Clock()
-scale = 3           ## change this value increment the display resolution, it being 480x270 when scale == 1
+scale = 2           ## change this value to increment the display resolution, it being 480x270 when scale == 1
 DISPLAYSURF = pygame.display.set_mode((480 * scale, 270 * scale))
 pygame.display.set_caption('Pocket Chip Pups')
 pygame.mouse.set_visible(False)
